@@ -1,0 +1,14 @@
+#ziliao input
+{
+    position: relative;
+    left:20px;
+    width:85px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    bottom: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,114 @@
+body
+{
+    border:0;
+    padding: 0;
+    margin: 0;
+}
+div
+{
+    border:0;
+    padding: 0;
+    margin: 0;
+}
+a
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration:none;
+    color: rgb(41, 39, 39);
+}
+span
+{
+    border:0;
+    padding: 0;
+    margin: 0;
+}
+.body_back
+{
+    background-color: blanchedalmond;
+}
+#box
+{
+    position: absolute;
+    width: 40%;
+    height:450px;
+    top:100px;
+    left:30%;
+    border: 2px solid #444;
+    background-color:transparent;
+}
+#Email
+{
+    position: relative;
+    left:150px;
+    color: red;
+    display: none;
+}
+#account
+{
+    position: relative;
+    left:150px;
+    color: red;
+    display: none;
+}
+#mima
+{
+    position: relative;
+    left:150px;
+    color: red;
+    display: none;
+}
+#rrr
+{
+    position: relative;
+}
+.ra
+{
+    opacity: 0;
+}
+input[type=radio] {
+    position: relative;
+    top:10px;
+    height: 40px;
+    width: 40px  ;
+    border-radius: 100%;
+    opacity: 0.5;
+    border-color:black;
+    background-color:transparent;        
+}
+.box_div
+{
+    height: 25%;
+    margin-top: 30px;
+}
+.box_span
+{
+    position: relative;
+    font-size: 40px;
+    left:20px;
+}
+.box_input
+{
+    position: relative;
+    top:-10px;
+    left:20px;
+    width:60%;
+    height:40px;
+    border-radius: 20px;
+    border: 1px solid #444;
+    background-color: transparent;  
+}
+.box_buttom
+{
+    position: relative;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(255, 215, 155);
+    padding: 0;
+    width:20%;
+    left:40%;
+    font-size: 20px;
+    height:30px;
+    top:15px;
+}

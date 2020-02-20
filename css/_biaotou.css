@@ -1,0 +1,149 @@
+*
+{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+#block1
+{
+    width: 100%;
+    height: 150px;;
+    overflow: hidden;
+    background-color: rgb(222,253,255);
+}
+#block1_img1
+{
+    height: 50px;
+    width: 50px;
+    float: right;
+    position: absolute;
+    top:10px;
+    left:180px;
+}
+#block1_img2
+{
+    height:50px;
+    width: 150px;
+    position: absolute;
+    left:250px;
+    top:10px;
+}
+#block1_input
+{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    padding-left: 20px;
+    right:500px;
+    top:10px;
+    border: 1px solid rgb(34,69,133);
+    border-radius: 20px;
+}
+#block1_img3
+{
+    width: 40px;
+}
+#block1_inline
+{
+    display: inline-block;
+    position: absolute;
+    right: 500px;
+    top:10px;
+    width: 40px;
+    height:40px;
+    border: 1px solid rgb(34,69,133);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#block1_sp
+{
+    position: absolute;
+    right:200px;
+    top:20px;
+}
+#t2
+{
+    position: relative;
+    left:45px;
+}
+#t3
+{
+    position: relative;
+    left:110px;
+}
+#t4
+{
+    position: relative;
+    left:145px;
+}
+#block1_account1
+{
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-right: 10px;;
+    border:1px solid rgb(34,69,133);
+}
+#block1_list
+{
+    position: relative;
+    height:50px;
+}
+#block1_sp li
+{
+    list-style: none;
+}
+#submission
+{
+    width:40px;
+    height:40px;
+    z-index: 10;
+    opacity: 0;
+}
+#block1_img3
+{
+    width: 40px;
+    position: relative;
+    bottom:40px;
+    z-index: 0;
+}
+.block1_sp_li
+{
+    display: inline-block;
+    position: relative;
+    color: rgb(34,69,133);
+    border: 5px solid white;
+}
+.block1_span
+{
+    position: relative;
+    bottom: 5px;
+    font-size: 20px;
+    color: rgb(34,69,133);
+    margin-right: 10px;
+    overflow: hidden;
+}
+#block1_cato
+{
+    width: 100%;
+    height:40px;
+    position: absolute;
+    top:110px;
+    z-index: 10;
+}
+.block1_cato_span
+{
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    left:180px;
+    font-size: 30px;
+    margin-right: 25px;
+    color: rgb(34,69,133);
+}

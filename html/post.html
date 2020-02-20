@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title></title>
+        <link href="../css/post.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="../js/post.js" reference path="../js/jquery-3.4.1.min.js"></script>
+	</head>
+	<body id="back">
+        <form action="/BookUpload" enctype="multipart/form-data" method="post" id="biaodan">
+            <div id="hezi">
+                <h1 id="ziliao">请填写资料</h1>
+                <div class="yangshi">书名<input type="text" name="Bookname" class="yangshi_input"></div>
+                <div class="yangshi">作者<input type="text" name="Author" class="yangshi_input"></div>
+                <div class="yangshi"><span id="jianjieword">简介</span>
+                    <textarea class="yangshi_input" id="jianjie" name="Brief" maxlength="300" 
+                    onchange="this.value=this.value.substring(0, 300)" 
+                    onkeydown="this.value=this.value.substring(0, 300)" 
+                    onkeyup="this.value=this.value.substring(0, 300)" 
+                    placeholder="只能放下150个字"></textarea></div>
+                <div class="yangshi">封面
+                    <input type="button" value="选择文件" id="sc">
+                    <input type="file" name="File" id="shangchuan">
+                    <div id="filename"></div>
+                </div>
+                <div class="yangshi">类型
+                    <select id="xuanze" name="Booktype">
+                        <option>魔幻</option>
+                        <option>玄幻</option>
+                        <option>古风</option>
+                        <option>科技</option>
+                        <option>校园</option>
+                        <option>都市</option>
+                        <option>游戏</option>
+                        <option>同人</option>
+                        <option>悬疑</option>
+                        <option>其他</option>
+                    </select>
+                </div>
+                <div class="yangshi"><input type="button"  value="上传" id="fasong"></div>
+            </div>
+		</form>
+	</body>
+</html>

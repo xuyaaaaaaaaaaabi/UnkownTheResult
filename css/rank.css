@@ -1,0 +1,117 @@
+
+@media screen and (max-width:1396px)
+    {
+        #block1_input
+        {
+            position: absolute;
+            width:300px;
+        }
+    }
+    @media screen and (max-width:1228px)
+    {
+        #block1_img1
+        {
+            position: absolute;
+            left: 0;
+        }
+        #block1_img2
+        {
+            position: absolute;
+            left:50px;
+        }
+        .block1_cato_span
+        {
+            position: relative;
+            left: 0;
+        }
+    }
+    @media screen and (max-width: 1023px)
+    {
+        #block1_input
+        {
+            right:30%;
+            width: 200px;
+        }
+        #block1_inline
+        {
+            right:30%;
+        }
+        #block1_sp
+        {
+            right:5%;
+        }
+        #_roll_play
+        {
+            position: relative;
+            left:-82px;
+        }
+    }
+    @media screen and (max-width: 767px)
+    {
+        #block1_img2
+        {
+            display: none;
+        }
+        #block1_input
+        {
+            width: 100px;
+            left:70px;
+        }
+        #block1_inline
+        {
+            left:130px;
+        }
+        #block1_sp
+        {
+           left:190px;
+        }
+        #block1_account1
+        {
+            display: none;
+        }
+        #block1_cato
+        {
+            position: relative;
+            top:120px;
+        }
+        .block1_cato_span
+        {
+            font-size: 20px;
+        }
+        #t2
+        {
+            position: relative;
+            left:-5px;
+        }
+        #t3
+        {
+            position: relative;
+            left:50px;
+        }
+        #t4
+        {
+            position: relative;
+            left:100px;
+        }
+    }
+    @media screen and (max-width: 383px)
+    {
+        #block1_account1
+        {
+            display: none;
+        }
+        #block1_account2
+        {
+            display: none;
+        }
+        #t3
+        {
+            position: relative;
+            left:0px;
+        }
+        #t4
+        {
+            position: relative;
+            left:38px;
+        }
+    }

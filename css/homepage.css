@@ -1,0 +1,573 @@
+*
+{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+#_roll_play ul li
+{
+    list-style: none;
+    float: left;
+}
+#_roll_play ul li div
+{
+    position: absolute;
+    bottom: 30px;
+    font-size: 30px;
+    left:15px;
+    color: white;
+}
+#_roll_play ul li span
+{
+    position: absolute;
+    bottom: 10px;
+    left:15px;
+    font-size: 20px;;
+    color: white;
+}
+#_roll_play li
+{
+    width: 800px;
+    height: 280px;
+    display: inline-block;
+}
+
+
+#block1
+{
+    width: 100%;
+    height: 150px;;
+    overflow: hidden;
+    background-color: rgb(222,253,255);
+}
+#block1_img1
+{
+    height: 50px;
+    width: 50px;
+    float: right;
+    position: absolute;
+    top:10px;
+    left:180px;
+}
+#block1_img2
+{
+    height:50px;
+    width: 150px;
+    position: absolute;
+    left:250px;
+    top:10px;
+}
+#block1_input
+{
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    right:500px;
+    top:10px;
+    border: 1px solid rgb(34,69,133);
+    border-radius: 20px;
+}
+#block1_img3
+{
+    width: 40px;
+}
+#block1_inline
+{
+    display: inline-block;
+    position: absolute;
+    right: 500px;
+    top:10px;
+    width: 40px;
+    height:40px;
+    border: 1px solid rgb(34,69,133);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#block1_sp
+{
+    position: absolute;
+    right:200px;
+    top:20px;
+}
+#t2
+{
+    position: relative;
+    left:45px;
+}
+#t3
+{
+    position: relative;
+    left:110px;
+}
+#t4
+{
+    position: relative;
+    left:145px;
+}
+#block1_account1
+{
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    margin-right: 10px;
+}
+#block1_list
+{
+    position: relative;
+    height:50px;
+}
+#block1_sp li
+{
+    list-style: none;
+}
+#submission
+{
+    width:40px;
+    height:40px;
+    z-index: 10;
+    opacity: 0;
+}
+#block1_img3
+{
+    width: 40px;
+    position: relative;
+    bottom:40px;
+    z-index: 0;
+}
+.block1_sp_li
+{
+    display: inline-block;
+    position: relative;
+    color: rgb(34,69,133);
+    border: 5px solid white;
+}
+.block1_span
+{
+    position: relative;
+    bottom: 5px;
+    font-size: 20px;
+    color: rgb(34,69,133);
+    margin-right: 10px;
+    overflow: hidden;
+}
+#block1_cato
+{
+    width: 100%;
+    height:40px;
+    position: absolute;
+    top:110px;
+    z-index: 10;
+}
+.block1_cato_span
+{
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    left:180px;
+    font-size: 30px;
+    margin-right: 25px;
+    color: rgb(34,69,133);
+}
+
+
+
+
+
+
+#block2
+{
+    width: 100%;
+    height:570px;
+    background-image: url("../img/b1.png");
+    background-size: cover;
+    vertical-align: middle;
+    text-align: center;
+}
+#block2_img
+{
+    width:1400px;
+    position: relative;
+    top: 26.3px;
+    text-align: center;
+}
+#block2_img1
+{
+    display: none;
+    width: 600px;
+}
+#block2_img2
+{
+    display: none;
+}
+
+
+#_roll_play ul li
+{
+    list-style: none;
+}
+#_roll_play ul li div
+{
+    position: absolute;
+    bottom: 30px;
+    font-size: 30px;
+    left:15px;
+    color: white;
+}
+#_roll_play ul li span
+{
+    position: absolute;
+    bottom: 10px;
+    left:15px;
+    font-size: 20px;;
+    color: white;
+}
+#_roll_play li
+{
+    display: inline-block;
+}
+#_roll_play li img
+{
+    width: 440px;
+    height:260px;
+}
+#_roll_play
+{
+    position: relative;
+    display: inline-block;
+    width: 440px;
+    height:260px;
+    top:-412px;
+    left:-183px;
+
+    overflow: hidden;
+    border-radius: 15px;
+}
+#_roll_play ul
+{
+    position: absolute;
+    height: 260px;
+    width: 100%;;
+} 
+#_roll_play ul li
+{
+    float: left;
+    width: 440px;
+    height:260px;
+    position: relative;
+    background-color: #000;;
+}
+#_roll_PreNext
+{
+    position: relative;
+    height: 30%;
+    top:35%;
+}
+#_roll_PreNext span img
+{
+    width: 40px;
+    position: relative;
+    top:10%;
+    margin:0  auto;
+}
+#_roll_PreNext_pre
+{
+    position: absolute;
+    height: 100%;
+    width: 60px;
+    left: 0;
+    background-color: transparent;
+}
+#_roll_PreNext_next
+{
+    position: absolute;
+    height: 100%;
+    width: 60px;
+    right: -7px;
+    background-color: transparent;
+}
+#_roll_PreNext_next img
+{
+    position: relative;
+    right:-1px;   
+}
+#_roll_roll
+{  
+    position: absolute;
+    width: 100%;
+    height:10%;
+    top:90%;
+}
+._roll_roll_span
+{
+    display: inline-block;
+    position: relative;
+    left:130px;
+    top:5px;
+    width: 20px;
+    height:13px;
+    background-color: white;
+}
+
+
+@media screen and (min-width: 1537px)
+    {
+        #block2
+        {
+            height:600px;
+        }
+        #block2_img
+        {
+            position: relative;
+            top:70px;
+        }
+        #_roll_play
+        {
+            position: relative;
+            top:-368px;
+        }
+    }
+    @media screen and (min-width: 1720.4px)
+    {
+        #block2
+        {
+            height:700px;
+        }
+        #_roll_play
+        {
+            position: relative;
+            left:-908px;
+            top:-64px;
+        }
+        #block2_img
+        {
+            position: relative;
+            left:200px;
+            top:110px;
+        }
+    }
+    @media screen and (min-width: 1921px)
+    {
+        #block2
+        {
+            height:810px;
+        }
+        #_roll_play
+        {
+            position: relative;
+            left:-908px;
+            top:-29px;
+        }
+        #block2_img
+        {
+            position: relative;
+            left:200px;
+            top:145px;
+        }
+    }
+    @media screen and (min-width: 2049px)
+    {
+        #block2
+        {
+            height:930px;
+        }
+    }
+    @media screen and (min-width: 2230px)
+    {
+        #block2
+        {
+            height:1200px;
+        }
+    }
+    @media screen and (min-width: 3072px)
+    {
+        #block2
+        {
+            height:2800px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width:1535px)
+    {
+        #block2_img
+        {
+            position: relative;
+            left:0px;
+        }
+        #_roll_play
+        {
+            position: relative;
+            left:-173px;
+        }
+    }
+    @media screen and (max-width:1395px)
+    {
+        #block1_input
+        {
+            position: absolute;
+            width:300px;
+        }
+        #_roll_play
+        {
+            position: relative;
+            left:-91px;
+        }
+    }
+    @media screen and (max-width:1228px)
+    {
+        #block1_img1
+        {
+            position: absolute;
+            left: 0;
+        }
+        #block1_img2
+        {
+            position: absolute;
+            left:50px;
+        }
+        .block1_cato_span
+        {
+            position: relative;
+            left: 0;
+        }
+        #_roll_play
+        {
+            position: relative;
+            left:10px;
+        }
+    }
+    @media screen and (max-width: 1023px)
+    {
+        #block1_input
+        {
+            right:30%;
+            width: 200px;
+        }
+        #block1_inline
+        {
+            right:30%;
+        }
+        #block1_sp
+        {
+            right:5%;
+        }
+        #block2_img
+        {
+            display: none;
+        }
+        #block2_img1
+        {
+            display: inline-block;
+            position: relative;
+            left:-15px;
+        }
+        #block2
+        {
+            height: 420px;
+        }
+        #_roll_play
+        {
+            position: relative;
+            top:-309px;
+            left:37px;
+        }
+    }
+    @media screen and (max-width: 767px)
+    {
+        #block1_img2
+        {
+            display: none;
+        }
+        #block1_input
+        {
+            width: 100px;
+            left:70px;
+        }
+        #block1_inline
+        {
+            left:130px;
+        }
+        #block1_sp
+        {
+           left:190px;
+        }
+        #block1_account1
+        {
+            display: none;
+        }
+        #block1_cato
+        {
+            position: relative;
+            top:0;
+        }
+        .block1_cato_span
+        {
+            font-size: 20px;
+        }
+        #t2
+        {
+            position: relative;
+            left:-5px;
+        }
+        #t3
+        {
+            position: relative;
+            left:50px;
+        }
+        #t4
+        {
+            position: relative;
+            left:100px;
+        }
+    }
+    @media screen and (max-width:613px)
+    {
+        #_roll_play
+        {
+            position: relative;
+            left:83px;
+        }
+    }
+    @media screen and (max-width:500px)
+    {
+        #_roll_play
+        {
+            position: relative;
+            left:121px;
+        }
+    }
+    @media screen and (max-width: 383px)
+    {
+        #block1_account1
+        {
+            display: none;
+        }
+        #block1_account2
+        {
+            display: none;
+        }
+        #t3
+        {
+            position: relative;
+            left:0px;
+        }
+        #t4
+        {
+            position: relative;
+            left:38px;
+        }
+    }
